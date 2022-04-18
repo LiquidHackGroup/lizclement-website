@@ -53,7 +53,7 @@ const Navbar = ({ navbarProps }) => {
 					</Link>
 					<ul className="flex items-center space-x-6">
 						<li>
-							<Link href="/">
+							<Link href="/shop">
 								<a className="text-white uppercase hover:text-gold-600 duration-500">
 									Shop
 								</a>
