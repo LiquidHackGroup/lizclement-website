@@ -6,8 +6,6 @@ const Navbar = ({ navbarProps }) => {
 	const { height, isLandingPage, headerTitle, backgroundImage } =
 		navbarProps[0];
 
-	console.log(height);
-
 	return (
 		<header
 			className={isLandingPage ? `h-screen` : `h-fit`}
@@ -35,7 +33,7 @@ const Navbar = ({ navbarProps }) => {
 							</Link>
 						</li>
 						<li>
-							<Link href="/">
+							<Link href="/school">
 								<a className="text-white uppercase hover:text-gold-600 duration-500">
 									School
 								</a>
@@ -104,7 +102,7 @@ const Navbar = ({ navbarProps }) => {
 				</div>
 			)}
 			{isLandingPage && (
-				<div className="absolute flex h-[354px] w-3/4 left-[50%] translate-x-[-50%] top-[660px]">
+				<div className="absolute flex h-[354px] w-3/4 left-[50%] translate-x-[-50%] top-[90%]">
 					<div>
 						<Image
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012162/LizClementPhotos/20220109_091023_ffjmes.jpg"
