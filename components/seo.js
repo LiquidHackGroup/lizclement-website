@@ -51,6 +51,11 @@ const SEO = ({
 				{metaData.map(({ name, content }, i) => (
 					<meta key={i} name={name} content={content} />
 				))}
+				<link
+					href="//db.onlinewebfonts.com/c/69f3ba1568ffb4e9d5c050bbcb518dfc?family=AridITC+TT"
+					rel="stylesheet"
+					type="text/css"
+				/>
 			</Head>
 			<Script
 				type="module"
