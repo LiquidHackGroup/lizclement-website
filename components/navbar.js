@@ -67,7 +67,7 @@ const Navbar = ({ navbarProps }) => {
 							</Link>
 						</li>
 						<li>
-							<Link href="/">
+							<Link href="/contact">
 								<a className="text-white uppercase hover:text-gold-600 duration-500">
 									Contact
 								</a>
