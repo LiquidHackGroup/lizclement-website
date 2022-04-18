@@ -64,6 +64,7 @@ const Footer = () => {
 						<Image
 							className="cursor-pointer"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650266701/LizClementPhotos/Facebook_x6jbpg.png"
+							alt="lizclement-Facebook_x6jbpg"
 							width={36}
 							height={36}
 						/>
@@ -74,6 +75,7 @@ const Footer = () => {
 						<Image
 							className="cursor-pointer"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650266701/LizClementPhotos/Twitter_cu1rno.png"
+							alt="lizclement-Twitter"
 							width={36}
 							height={36}
 						/>
@@ -84,6 +86,7 @@ const Footer = () => {
 						<Image
 							className="cursor-pointer"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650266700/LizClementPhotos/Instagram_gfnee9.png"
+							alt="lizclement-Instagram"
 							width={36}
 							height={36}
 						/>

@@ -156,6 +156,7 @@ const Section = () => {
 					<div>
 						<Image
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012104/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.15.12_cpaher.jpg"
+							alt="lizclement-image"
 							width={139}
 							height={139}
 						/>
@@ -171,6 +172,7 @@ const Section = () => {
 					<div>
 						<Image
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650114116/LizClementPhotos/new-pic_qgw6ch.png"
+							alt="lizclement-image"
 							width={139}
 							height={139}
 						/>
@@ -186,6 +188,7 @@ const Section = () => {
 					<div>
 						<Image
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012105/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.12.05_r54gbg.jpg"
+							alt="lizclement-image"
 							width={139}
 							height={139}
 						/>

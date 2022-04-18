@@ -62,7 +62,7 @@ const ContactSection = () => {
 				<div>
 					<div>
 						<textarea
-							class="w-full my-4 pl-[14px] pt-[16px] focus:outline-none border border-gray-400"
+							className="w-full my-4 pl-[14px] pt-[16px] focus:outline-none border border-gray-400"
 							name=""
 							id=""
 							cols="30"
