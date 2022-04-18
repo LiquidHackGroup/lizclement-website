@@ -8,7 +8,7 @@ const ContactSection = () => {
 					Contact Us
 				</h2>
 				<h4 className="py-8 text-gray-500">
-					We're open for any suggestion or just to have a chat.
+					We are open for any suggesttion or just to have a chat.
 				</h4>
 				<div className="flex justify-center space-x-6">
 					<div className="md:w-1/3">
