@@ -127,7 +127,36 @@ const Products = () => {
 				</div>
 				<div className="w-1/4">
 					<h2>Categories</h2>
-				</div>{' '}
+				</div>
+			</div>
+			<div className="container flex justify-center mx-auto">
+				<ul className="flex">
+					<li>
+						<button className="h-10 px-5 text-gold-600 bg-white border border-r-0 border-gold-600 hover:bg-gray-200">
+							Prev
+						</button>
+					</li>
+					<li>
+						<button className="h-10 px-5 text-gold-600 bg-white border border-r-0 border-gold-600 ">
+							1
+						</button>
+					</li>
+					<li>
+						<button className="h-10 px-5 text-gold-600 bg-white border border-r-0 border-gold-600 hover:bg-gray-100">
+							2
+						</button>
+					</li>
+					<li>
+						<button className="h-10 px-5 text-white bg-gold-600 border border-r-0 border-gold-600 ">
+							3
+						</button>
+					</li>
+					<li>
+						<button className="h-10 px-5 text-gold-600 bg-white border border-gold-600 hover:bg-gray-200">
+							Next
+						</button>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
