@@ -8,7 +8,7 @@ const navbarProps = [
 		height: '333px',
 		headerTitle: 'Portolio Gallery',
 		backgroundImage:
-			'https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650270693/LizClementPhotos/istockphoto-1165263716-1024x1024_j1dxtb.jpg',
+			'https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650708280/LizClementPhotos/38_rfzes6.jpg',
 	},
 ];
 

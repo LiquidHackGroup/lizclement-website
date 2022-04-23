@@ -31,6 +31,28 @@ const Section = () => {
 				</div>
 			</div>
 			{/* A whole new world */}
+			<div
+				className="h-[422px] w-full flex items-center justify-end my-14"
+				style={{
+					backgroundBlendMode: 'multiply',
+					backgroundColor: '#949494',
+					// filter: 'brightness(60%)',
+					backgroundPosition: 'center',
+					backgroundSize: 'cover',
+					backgroundRepeat: 'no-repeat',
+					mixBlendMode: 'hard-light',
+					backgroundImage: `url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650708286/LizClementPhotos/29_fukz8w.jpg')`,
+				}}
+			>
+				<div className="md:px-60 md:pt-28">
+					<h2 className="text-white text-4xl font-light uppercase tracking-widest">
+						A Whole New World,
+					</h2>
+					<h2 className="text-white text-4xl font-light uppercase tracking-widest">
+						A Whole New Look.
+					</h2>
+				</div>
+			</div>
 
 			{/* Products */}
 			<div className="py-14 px-40">
@@ -119,6 +141,7 @@ const Section = () => {
 					<div className="space-y-3">
 						<div>
 							<Image
+								style={{ aspectRatio: 16 / 9 }}
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012128/LizClementPhotos/WhatsApp_Image_2022-02-11_at_5.03.21_PM_lsvv0l.jpg"
 								alt="lizclement-image"
 								width={620}
@@ -127,6 +150,7 @@ const Section = () => {
 						</div>
 						<div>
 							<Image
+								style={{ aspectRatio: 3 / 1 }}
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012118/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.40_PM_1_tsqoub.jpg"
 								alt="lizclement-image"
 								width={620}
@@ -140,6 +164,35 @@ const Section = () => {
 				<h2 className="uppercase text-xl md:text-4xl font-bold text-center">
 					Our Latest Deals
 				</h2>
+			</div>
+			<div
+				className="h-[348px] w-full flex flex-col items-center py-8"
+				style={{
+					backgroundBlendMode: 'multiply',
+					backgroundColor: '#949494',
+					// filter: 'brightness(60%)',
+					backgroundPosition: 'center',
+					backgroundSize: 'cover',
+					backgroundRepeat: 'no-repeat',
+					mixBlendMode: 'hard-light',
+					backgroundImage: `url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650708278/LizClementPhotos/35_bodljx.jpg')`,
+				}}
+			>
+				<div className="w-1/2">
+					<h2 className="uppercase text-white text-3xl font-semibold tracking-widest text-center">
+						DON’T MISS OUT OUR SPECIAL OFFERS! SUBSCRIBE!
+					</h2>
+				</div>
+				<div className="md:w-2/5 py-12 flex items-center">
+					<input
+						type="text"
+						className="pl-[14px] focus:outline-none border border-gray-400 w-full my-4 py-7 h-10 rounded-sm bg-lightGray"
+						placeholder="Your email address"
+					/>
+					<button className="uppercase text-white bg-gold-600 px-8 py-2 h-14 duration-500">
+						Subscribe
+					</button>
+				</div>
 			</div>
 			<div className="">
 				<h2 className="uppercase text-xl md:text-4xl font-bold text-center">
