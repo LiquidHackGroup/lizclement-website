@@ -47,6 +47,11 @@ const SEO = ({
 			<Head>
 				<link rel="shortcut icon" href="/icon.jpeg" sizes="32x32" />
 				<title>{title}</title>
+				<link
+					href="//db.onlinewebfonts.com/c/69f3ba1568ffb4e9d5c050bbcb518dfc?family=AridITC+TT"
+					rel="stylesheet"
+					type="text/css"
+				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				{metaData.map(({ name, content }, i) => (
 					<meta key={i} name={name} content={content} />
