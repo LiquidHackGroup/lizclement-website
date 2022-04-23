@@ -16,7 +16,7 @@ const Navbar = ({ navbarProps }) => {
 			}}
 		>
 			<nav className="relative container mx-auto py-6">
-				<div className="flex items-center justify-around">
+				<div className="hidden md:flex items-center justify-around">
 					<ul className="flex items-center space-x-6">
 						<li>
 							<Link href="/">
@@ -60,7 +60,7 @@ const Navbar = ({ navbarProps }) => {
 							</Link>
 						</li>
 						<li>
-							<Link href="/">
+							<Link href="/blog">
 								<a className="text-white uppercase hover:text-gold-600 duration-500">
 									Blog
 								</a>
@@ -74,6 +74,9 @@ const Navbar = ({ navbarProps }) => {
 							</Link>
 						</li>
 					</ul>
+				</div>
+				<div className="navbar">
+					<i className="block md:hidden bx bx-menu text-white cursor-pointer text-3xl"></i>
 				</div>
 			</nav>
 			{!isLandingPage && (
