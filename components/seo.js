@@ -47,8 +47,12 @@ const SEO = ({
 			<Head>
 				<link rel="shortcut icon" href="/icon.jpeg" sizes="32x32" />
 				<title>{title}</title>
-				<link
+				{/* <link
 					href="//db.onlinewebfonts.com/c/69f3ba1568ffb4e9d5c050bbcb518dfc?family=AridITC+TT"
+					rel="stylesheet"
+				/> */}
+				<link
+					href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
 					rel="stylesheet"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
