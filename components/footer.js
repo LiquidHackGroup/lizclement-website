@@ -14,7 +14,7 @@ const Footer = () => {
 					height={68}
 				/>
 			</div>
-			<ul className="flex justify-center items-center space-x-6 py-8">
+			<ul className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 py-8">
 				<li>
 					<Link href="/">
 						<a className="text-white uppercase hover:text-gold-600 duration-500">
@@ -95,7 +95,7 @@ const Footer = () => {
 			</div>
 			<div className="py-4">
 				<div className="flex justify-center">
-					<p className="text-white">
+					<p className="text-white text-xs md:text-base px-2">
 						&copy; {new Date().getFullYear()} All Rights Reserved.{' '}
 						<span className="text-gold-600">LizClement Beauty Salon</span>{' '}
 					</p>

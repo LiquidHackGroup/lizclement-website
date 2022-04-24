@@ -130,7 +130,7 @@ html {
 	}
 
 	.carousel .slide img {
-		width: 24% !important;
+		/* width: 24% !important; */
 		border-radius: 50%;
 	}
 }

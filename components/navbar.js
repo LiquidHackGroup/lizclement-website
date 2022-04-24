@@ -16,7 +16,7 @@ const Navbar = ({ navbarProps }) => {
 			}}
 		>
 			<nav className="relative container mx-auto py-6">
-				<div className="hidden md:flex items-center justify-around">
+				<div className="hidden sm:flex items-center justify-around">
 					<ul className="flex items-center space-x-6">
 						<li>
 							<Link href="/">
@@ -75,37 +75,80 @@ const Navbar = ({ navbarProps }) => {
 						</li>
 					</ul>
 				</div>
-				<div className="navbar">
-					<i className="block md:hidden bx bx-menu text-white cursor-pointer text-3xl"></i>
+				<div className="block sm:hidden relative container mx-auto py-6">
+					<div className="flex w-full fixed justify-between items-center px-7">
+						<Link
+							href="/"
+							className="cursor-pointer flex items-center"
+							passHref
+						>
+							<div>
+								<Image
+									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,h_51,w_223/v1650114114/LizClementPhotos/Liz_Logo-removebg-preview_tpipeg.png"
+									alt="lizclement-logo"
+									className="cursor-pointer"
+									width={223}
+									height={51}
+								/>
+							</div>
+						</Link>
+						<i
+							color="white"
+							className="bx bx-menu text-white cursor-pointer text-3xl"
+						></i>
+					</div>
+					<div className="nav-links bg-white leading-[70px] fixed h-[100%] top-0 px-7">
+						<div className="">
+							<Link
+								href="/"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div>
+									<Image
+										src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/c_scale,h_51,w_223/v1650114114/LizClementPhotos/Liz_Logo-removebg-preview_tpipeg.png"
+										alt="lizclement-logo"
+										className="cursor-pointer"
+										width={223}
+										height={51}
+									/>
+								</div>
+							</Link>
+							<i
+								color="white"
+								className="bx bx-x text-white cursor-pointer text-3xl"
+							></i>
+						</div>
+					</div>
 				</div>
 			</nav>
 			{!isLandingPage && (
 				<div className="mt-[120px] pb-8 px-24">
-					<h2 className="text-gold-600 font-semibold tracking-widest text-5xl uppercase">
+					<h2 className="text-gold-600 font-semibold tracking-widest text-2xl sm:text-5xl uppercase">
 						{headerTitle}
 					</h2>
 				</div>
 			)}
 			{isLandingPage && (
-				<div className="flex flex-col items-center space-y-2 justify-center mt-[260px] my-auto">
+				<div className="flex flex-col items-center space-y-2 justify-center mt-[120px] sm:mt-[260px] my-auto">
 					<h2
-						className="text-gold-600"
+						className="text-gold-600 text-3xl sm:text-5xl"
 						style={{
-							font: 'normal normal normal 93px/86px AridITC TT',
+							font: 'normal normal normal AridITC TT',
 							textTransform: 'capitalize',
 						}}
 					>
 						{headerTitle}
 					</h2>
 					<div className="text-center">
-						<button className="uppercase text-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-4 duration-500">
+						<button className="uppercase text-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-2 sm:px-4 py-2 sm:py-4 duration-500">
 							Make Appointment
 						</button>
 					</div>
 				</div>
 			)}
 			{isLandingPage && (
-				<div className="absolute flex h-[354px] w-3/4 left-[50%] translate-x-[-50%] top-[90%]">
+				<div className="absolute flex h-[354px] w-3/4 left-[50%] translate-x-[-50%] top-[95%] sm:top-[90%]">
 					<div>
 						<Image
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012162/LizClementPhotos/20220109_091023_ffjmes.jpg"

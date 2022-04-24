@@ -7,32 +7,38 @@ const Section = () => {
 	return (
 		<>
 			{/* Working days */}
-			<div className="pt-72 px-40">
-				<div className="flex space-x-8 justify-end">
-					<div className="w-1/3">
-						<h1 className="text-5xl font-bold text-right uppercase">
+			<div className="pt-36 md:pt-72 px-auto px-4 sm:px-40">
+				<div className="flex flex-col md:flex-row md:space-x-8 items-center sm:items-start justify-center md:justify-end">
+					<div className="w-full md:w-1/3">
+						<h1 className="text-2xl mb-8 md:mb-0 md:text-5xl font-bold text-center md:text-right uppercase">
 							Working Hours
 						</h1>
 					</div>
-					<div className="flex flex-col justify-between w-1/2">
-						<div className="flex justify-between border-b pb-4">
-							<h4 className="text-xl font-semibold uppercase">Working Days</h4>
-							<h4 className="text-xl ">9AM - 7PM</h4>
+					<div className="flex flex-col space-y-4 justify-center md:justify-between w-full md:w-1/2">
+						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 justify-center sm:justify-between border-b pb-4">
+							<h4 className="text-base sm:text-xl font-semibold uppercase">
+								Working Days
+							</h4>
+							<h4 className="text-base sm:text-xl">9AM - 7PM</h4>
 						</div>
-						<div className="flex justify-between border-b py-4">
-							<h4 className="text-xl font-semibold uppercase">Saturday</h4>
-							<h4 className="text-xl ">10AM - 7PM</h4>
+						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 justify-center sm:justify-between border-b py-4">
+							<h4 className="text-base sm:text-xl font-semibold uppercase">
+								Saturday
+							</h4>
+							<h4 className="text-base sm:text-xl ">10AM - 7PM</h4>
 						</div>
-						<div className="flex justify-between border-b py-4">
-							<h4 className="text-xl font-semibold uppercase">Sunday</h4>
-							<h4 className="text-xl uppercase">Closed</h4>
+						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 justify-center sm:justify-between border-b py-4">
+							<h4 className="text-base sm:text-xl font-semibold uppercase">
+								Sunday
+							</h4>
+							<h4 className="text-base sm:text-xl uppercase">Closed</h4>
 						</div>
 					</div>
 				</div>
 			</div>
 			{/* A whole new world */}
 			<div
-				className="h-[422px] w-full flex items-center justify-end my-14"
+				className="h-[422px] w-full flex items-end sm:items-center justify-end my-14"
 				style={{
 					backgroundBlendMode: 'multiply',
 					backgroundColor: '#949494',
@@ -44,20 +50,20 @@ const Section = () => {
 					backgroundImage: `url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650708286/LizClementPhotos/29_fukz8w.jpg')`,
 				}}
 			>
-				<div className="md:px-60 md:pt-28">
-					<h2 className="text-white text-4xl font-light uppercase tracking-widest">
+				<div className="sm:px-40 md:px-60 md:pt-28 pb-8 sm:pb-0">
+					<h2 className="text-white text-xl md:text-4xl font-light uppercase tracking-widest">
 						A Whole New World,
 					</h2>
-					<h2 className="text-white text-4xl font-light uppercase tracking-widest">
+					<h2 className="text-white text-xl md:text-4xl font-light uppercase tracking-widest">
 						A Whole New Look.
 					</h2>
 				</div>
 			</div>
 
 			{/* Products */}
-			<div className="py-14 px-40">
-				<div className="flex flex-col md:flex-row">
-					<div className="md:w-1/4">
+			<div className="py-8 sm:py-14 px-2 sm:px-28 md:px-40">
+				<div className="grid grid-cols-2 sm:grid-cols-4 gap-1">
+					<div className="">
 						<div className="flex items-center justify-center">
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258942/LizClementPhotos/products_5_msr6zp.jpg"
@@ -73,7 +79,7 @@ const Section = () => {
 							<h4 className="text-gray-700">KES 800.00</h4>
 						</div>
 					</div>
-					<div className="md:w-1/4">
+					<div className="">
 						<div className="flex items-center justify-center">
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258946/LizClementPhotos/products_2_k8z66p.jpg"
@@ -89,7 +95,7 @@ const Section = () => {
 							<h4 className="text-gray-700">KES 800.00</h4>
 						</div>
 					</div>
-					<div className="md:w-1/4">
+					<div className="">
 						<div className="flex items-center justify-center">
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258940/LizClementPhotos/products_3_klztgm.jpg"
@@ -105,7 +111,7 @@ const Section = () => {
 							<h4 className="text-gray-700">KES 800.00</h4>
 						</div>
 					</div>
-					<div className="md:w-1/4">
+					<div className="">
 						<div className="flex items-center justify-center">
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258952/LizClementPhotos/products_1_szeg22.jpg"
@@ -123,13 +129,13 @@ const Section = () => {
 					</div>
 				</div>
 				<div className="text-center py-8">
-					<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-4 duration-500">
+					<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 sm:py-4 duration-500">
 						More Products
 					</button>
 				</div>
 			</div>
-			<div className="">
-				<div className="flex flex-col space-x-6 md:flex-row">
+			<div className="px-4 sm:px-0">
+				<div className="flex flex-col justify-center sm:space-x-4 sm:flex-row">
 					<div>
 						<Image
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012104/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.15.12_cpaher.jpg"
@@ -138,10 +144,10 @@ const Section = () => {
 							height={620}
 						/>
 					</div>
-					<div className="space-y-3">
+					<div className="sm:space-y-2">
 						<div>
 							<Image
-								style={{ aspectRatio: 16 / 9 }}
+								// style={{ aspectRatio: 16 / 9 }}
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012128/LizClementPhotos/WhatsApp_Image_2022-02-11_at_5.03.21_PM_lsvv0l.jpg"
 								alt="lizclement-image"
 								width={620}
@@ -150,7 +156,7 @@ const Section = () => {
 						</div>
 						<div>
 							<Image
-								style={{ aspectRatio: 3 / 1 }}
+								// style={{ aspectRatio: 3 / 1 }}
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012118/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.40_PM_1_tsqoub.jpg"
 								alt="lizclement-image"
 								width={620}
@@ -178,24 +184,24 @@ const Section = () => {
 					backgroundImage: `url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650708278/LizClementPhotos/35_bodljx.jpg')`,
 				}}
 			>
-				<div className="w-1/2">
-					<h2 className="uppercase text-white text-3xl font-semibold tracking-widest text-center">
+				<div className="w-full md:w-1/2">
+					<h2 className="uppercase text-white text-xl md:text-3xl font-semibold tracking-widest text-center">
 						DON’T MISS OUT OUR SPECIAL OFFERS! SUBSCRIBE!
 					</h2>
 				</div>
-				<div className="md:w-2/5 py-12 flex items-center">
+				<div className="w-full md:w-2/5 px-2 py-12 flex flex-col sm:flex-row items-center">
 					<input
 						type="text"
-						className="pl-[14px] focus:outline-none border border-gray-400 w-full my-4 py-7 h-10 rounded-sm bg-lightGray"
+						className="pl-[14px] focus:outline-none border border-gray-400 w-full my-4 py-3 sm:py-7 sm:h-10 rounded-sm bg-lightGray"
 						placeholder="Your email address"
 					/>
-					<button className="uppercase text-white bg-gold-600 px-8 py-2 h-14 duration-500">
+					<button className="uppercase text-white bg-gold-600 px-6 sm:px-8 sm:py-2 h-10 sm:h-14 duration-500">
 						Subscribe
 					</button>
 				</div>
 			</div>
-			<div className="">
-				<h2 className="uppercase text-xl md:text-4xl font-bold text-center">
+			<div className="py-14">
+				<h2 className="uppercase mb-8 md:mb-0 text-xl md:text-4xl font-bold text-center">
 					Testimonials
 				</h2>
 				<Carousel
