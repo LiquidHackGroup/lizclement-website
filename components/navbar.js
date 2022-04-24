@@ -6,6 +6,12 @@ const Navbar = ({ navbarProps }) => {
 	const { height, isLandingPage, headerTitle, backgroundImage } =
 		navbarProps[0];
 
+	const [open, setOpen] = useState(false);
+
+	const handleSidebar = () => {
+		setOpen(!open);
+	};
+
 	return (
 		<header
 			className={isLandingPage ? `h-screen` : `h-fit`}
@@ -75,8 +81,8 @@ const Navbar = ({ navbarProps }) => {
 						</li>
 					</ul>
 				</div>
-				<div className="block sm:hidden relative container mx-auto py-6">
-					<div className="flex w-full fixed justify-between items-center px-7">
+				<div className="block sm:hidden relative container mx-auto py-2">
+					<div className="flex w-full fixed justify-between px-2">
 						<Link
 							href="/"
 							className="cursor-pointer flex items-center"
@@ -93,12 +99,17 @@ const Navbar = ({ navbarProps }) => {
 							</div>
 						</Link>
 						<i
+							onClick={handleSidebar}
 							color="white"
 							className="bx bx-menu text-white cursor-pointer text-3xl"
 						></i>
 					</div>
-					<div className="nav-links bg-white leading-[70px] fixed h-[100%] top-0 px-7">
-						<div className="">
+					<div
+						className={`${
+							open ? 'left-0' : 'left-[-100%]'
+						}  bg-glass-300 z-[100] leading-[40px] shadow-md fixed h-[100%] top-0 px-2 duration-500`}
+					>
+						<div className="flex justify-between py-6">
 							<Link
 								href="/"
 								className="cursor-pointer flex items-center"
@@ -115,10 +126,55 @@ const Navbar = ({ navbarProps }) => {
 								</div>
 							</Link>
 							<i
+								onClick={handleSidebar}
 								color="white"
 								className="bx bx-x text-white cursor-pointer text-3xl"
 							></i>
 						</div>
+						<ul className="flex flex-col items-center">
+							<li>
+								<Link href="/">
+									<a className="text-white uppercase hover:text-gold-600 duration-500">
+										Home
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/">
+									<a className="text-white uppercase hover:text-gold-600 duration-500">
+										Gallery
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/">
+									<a className="text-white uppercase hover:text-gold-600 duration-500">
+										School
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/">
+									<a className="text-white uppercase hover:text-gold-600 duration-500">
+										Shop
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/">
+									<a className="text-white uppercase hover:text-gold-600 duration-500">
+										Blog
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/">
+									<a className="text-white uppercase hover:text-gold-600 duration-500">
+										Contact
+									</a>
+								</Link>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</nav>

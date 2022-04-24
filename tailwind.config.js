@@ -19,6 +19,9 @@ module.exports = {
 				glass: {
 					300: '#252324', // glossy black color code
 				},
+				glass2: {
+					400: '#8F8F8F',
+				},
 			},
 			screens: {
 				md: '872px', // ipad mini & ipad air responsive
