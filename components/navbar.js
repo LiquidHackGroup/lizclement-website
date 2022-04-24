@@ -82,7 +82,7 @@ const Navbar = ({ navbarProps }) => {
 					</ul>
 				</div>
 				<div className="block sm:hidden relative container mx-auto py-2">
-					<div className="flex w-full fixed justify-between px-2">
+					<div className="flex w-full justify-between px-4">
 						<Link
 							href="/"
 							className="cursor-pointer flex items-center"
