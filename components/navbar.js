@@ -140,35 +140,35 @@ const Navbar = ({ navbarProps }) => {
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="/gallery">
 									<a className="text-white uppercase hover:text-gold-600 duration-500">
 										Gallery
 									</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="/school">
 									<a className="text-white uppercase hover:text-gold-600 duration-500">
 										School
 									</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="/shop">
 									<a className="text-white uppercase hover:text-gold-600 duration-500">
 										Shop
 									</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="/blog">
 									<a className="text-white uppercase hover:text-gold-600 duration-500">
 										Blog
 									</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="/contact">
 									<a className="text-white uppercase hover:text-gold-600 duration-500">
 										Contact
 									</a>

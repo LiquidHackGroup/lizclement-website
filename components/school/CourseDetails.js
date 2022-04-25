@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const CourseDetails = () => {
 	return (
-		<div className="py-10 px-24">
+		<div className="py-10 px-7 sm:px-24">
 			<h2 className="text-2xl font-semibold tracking-wide uppercase">
 				Course Details
 			</h2>

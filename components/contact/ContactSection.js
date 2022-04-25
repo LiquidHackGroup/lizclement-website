@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactSection = () => {
 	return (
-		<div className="py-10 mx-24 bg-white">
+		<div className="py-10 mx-7 md:mx-24 bg-white">
 			<div className="px-10">
 				<h2 className="text-4xl uppercase font-semibold tracking-wide">
 					Contact Us
@@ -10,8 +10,8 @@ const ContactSection = () => {
 				<h4 className="py-8 text-gray-500">
 					We are open for any suggesttion or just to have a chat.
 				</h4>
-				<div className="flex justify-center space-x-6">
-					<div className="md:w-1/3">
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+					<div className="">
 						<h4 className="text-3xl uppercase font-semibold tracking-wide">
 							Address:
 						</h4>
@@ -19,7 +19,7 @@ const ContactSection = () => {
 							P.O. Box 6301 - 00610 Nairobi Kenya
 						</h5>
 					</div>
-					<div className="md:w-1/3">
+					<div className="">
 						<h4 className="text-3xl uppercase font-semibold tracking-wide">
 							Email:
 						</h4>
@@ -27,7 +27,7 @@ const ContactSection = () => {
 							support@lizclementsalon.com
 						</h5>
 					</div>
-					<div className="md:w-1/3">
+					<div className="">
 						<h4 className="text-3xl uppercase font-semibold tracking-wide">
 							Phone:
 						</h4>
@@ -36,22 +36,22 @@ const ContactSection = () => {
 						</h5>
 					</div>
 				</div>
-				<div className="flex justify-center space-x-6">
-					<div className="md:w-1/3">
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+					<div className="">
 						<input
 							type="text"
 							className="pl-[14px] focus:outline-none border border-gray-400 w-full my-4 py-6 h-10 rounded-sm bg-lightGray"
 							placeholder="Your Name"
 						/>
 					</div>
-					<div className="md:w-1/3">
+					<div className="">
 						<input
 							type="text"
 							className="pl-[14px] focus:outline-none border border-gray-400 w-full my-4 py-6 h-10 rounded-sm bg-lightGray"
 							placeholder="Email Address"
 						/>
 					</div>
-					<div className="md:w-1/3">
+					<div className="">
 						<input
 							type="text"
 							className="pl-[14px] focus:outline-none border border-gray-400 w-full my-4 py-6 h-10 rounded-sm bg-lightGray"

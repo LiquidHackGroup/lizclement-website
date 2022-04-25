@@ -19,13 +19,13 @@ const Section = () => {
 							<h4 className="text-base sm:text-xl font-semibold uppercase">
 								Working Days
 							</h4>
-							<h4 className="text-base sm:text-xl">9AM - 7PM</h4>
+							<h4 className="text-base sm:text-xl">6AM - 8PM</h4>
 						</div>
 						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 justify-center sm:justify-between border-b py-4">
 							<h4 className="text-base sm:text-xl font-semibold uppercase">
 								Saturday
 							</h4>
-							<h4 className="text-base sm:text-xl ">10AM - 7PM</h4>
+							<h4 className="text-base sm:text-xl ">7AM - 8PM</h4>
 						</div>
 						<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 justify-center sm:justify-between border-b py-4">
 							<h4 className="text-base sm:text-xl font-semibold uppercase">

@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Products = () => {
 	return (
-		<div className="py-10 px-24">
-			<div className="flex justify-center space-x-6">
-				<div className="w-3/4">
-					<div className="flex justify-between items-center">
+		<div className="py-10 px-7 md:px-24">
+			<div className="flex flex-col md:flex-row justify-center sm:space-x-6">
+				<div className="w-full md:w-3/4">
+					<div className="flex flex-col sm:flex-row justify-between items-center space-y-4 md:space-y-0">
 						<h2>SHOWING 1 - 6 OF 18 RESULTS</h2>
 						<div className="border rounded overflow-hidden flex w-64">
 							<input
@@ -26,8 +26,8 @@ const Products = () => {
 							</button>
 						</div>
 					</div>
-					<div className="flex flex-col flex-wrap gap-y-8 md:flex-row py-8">
-						<div className="md:w-1/3">
+					<div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-4">
+						<div className="">
 							<div className="flex items-center justify-center">
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258942/LizClementPhotos/products_5_msr6zp.jpg"
@@ -43,7 +43,7 @@ const Products = () => {
 								<h4 className="text-gray-700">KES 800.00</h4>
 							</div>
 						</div>
-						<div className="md:w-1/3">
+						<div className="">
 							<div className="flex items-center justify-center">
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258946/LizClementPhotos/products_2_k8z66p.jpg"
@@ -59,7 +59,7 @@ const Products = () => {
 								<h4 className="text-gray-700">KES 800.00</h4>
 							</div>
 						</div>
-						<div className="md:w-1/3">
+						<div className="">
 							<div className="flex items-center justify-center">
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258940/LizClementPhotos/products_3_klztgm.jpg"
@@ -75,7 +75,7 @@ const Products = () => {
 								<h4 className="text-gray-700">KES 800.00</h4>
 							</div>
 						</div>
-						<div className="md:w-1/3">
+						<div className="">
 							<div className="flex items-center justify-center">
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258952/LizClementPhotos/products_1_szeg22.jpg"
@@ -91,7 +91,7 @@ const Products = () => {
 								<h4 className="text-gray-700">KES 800.00</h4>
 							</div>
 						</div>
-						<div className="md:w-1/3">
+						<div className="">
 							<div className="flex items-center justify-center">
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258974/LizClementPhotos/products_4_defl6y.jpg"
@@ -107,7 +107,7 @@ const Products = () => {
 								<h4 className="text-gray-700">KES 800.00</h4>
 							</div>
 						</div>
-						<div className="md:w-1/3">
+						<div className="">
 							<div className="flex items-center justify-center">
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650278760/LizClementPhotos/product_6_qhidmm.jpg"
@@ -125,7 +125,7 @@ const Products = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-1/4">
+				<div className="w-1/4 my-6 sm:my-0">
 					<h2>Categories</h2>
 				</div>
 			</div>

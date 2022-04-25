@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 const GallerySection = () => {
 	return (
-		<div className="py-10 px-24">
-			<ul className="flex space-x-6 uppercase">
+		<div className="py-10 px-7 sm:px-24">
+			<ul className="flex flex-wrap space-x-6 uppercase">
 				<li className="cursor-pointer text-gold-600">Show All</li>
 				<li className="cursor-pointer hover:text-gold-600">Hair Salon</li>
 				<li className="cursor-pointer hover:text-gold-600">Nailbar</li>
 				<li className="cursor-pointer hover:text-gold-600">Beauty Services</li>
 			</ul>
-			<div className="py-8 flex flex-wrap justify-center gap-3">
+			<div className="py-8 grid grid-cols-2 gap-2 sm:grid-cols-4">
 				<div>
 					<Image
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012103/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.15.07_mhe6kg.jpg"
@@ -54,6 +54,22 @@ const GallerySection = () => {
 				<div>
 					<Image
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012109/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.30_PM_yc1noa.jpg"
+						alt="lizclement-image"
+						width={300}
+						height={349}
+					/>
+				</div>
+				<div>
+					<Image
+						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012141/LizClementPhotos/WhatsApp_Image_2022-02-16_at_3.50.19_PM_1_wqeukt.jpg"
+						alt="lizclement-image"
+						width={300}
+						height={349}
+					/>
+				</div>
+				<div>
+					<Image
+						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012130/LizClementPhotos/WhatsApp_Image_2022-02-11_at_5.03.21_PM_2_bt6xdj.jpg"
 						alt="lizclement-image"
 						width={300}
 						height={349}

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const SchoolSection = () => {
 	return (
-		<div className="py-10 px-24">
+		<div className="py-10 px-7 sm:px-24">
 			<h2 className="text-2xl font-semibold tracking-wide uppercase">
 				Programs
 			</h2>
