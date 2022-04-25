@@ -13,7 +13,7 @@ const Layout = ({ navbarProps, children }) => {
 			<Navbar navbarProps={navbarProps} />
 			<main
 				className={
-					pathname === '/contact'
+					pathname === '/contact' || pathname === '/blog'
 						? 'py-2 w-screen min-h-fit bg-faintGray'
 						: 'py-2 w-screen min-h-screen'
 				}
