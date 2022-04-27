@@ -17,42 +17,42 @@ const Footer = () => {
 			<ul className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 py-8">
 				<li>
 					<Link href="/">
-						<a className="text-white uppercase hover:text-gold-600 duration-500">
+						<a className="text-white text-sm sm:text-base uppercase hover:text-gold-600 duration-500">
 							Home
 						</a>
 					</Link>
 				</li>
 				<li>
 					<Link href="/gallery">
-						<a className="text-white uppercase hover:text-gold-600 duration-500">
+						<a className="text-white text-sm sm:text-base uppercase hover:text-gold-600 duration-500">
 							Gallery
 						</a>
 					</Link>
 				</li>
 				<li>
 					<Link href="/school">
-						<a className="text-white uppercase hover:text-gold-600 duration-500">
+						<a className="text-white text-sm sm:text-base uppercase hover:text-gold-600 duration-500">
 							School
 						</a>
 					</Link>
 				</li>
 				<li>
 					<Link href="/shop">
-						<a className="text-white uppercase hover:text-gold-600 duration-500">
+						<a className="text-white text-sm sm:text-base uppercase hover:text-gold-600 duration-500">
 							Shop
 						</a>
 					</Link>
 				</li>
 				<li>
 					<Link href="/blog">
-						<a className="text-white uppercase hover:text-gold-600 duration-500">
+						<a className="text-white text-sm sm:text-base uppercase hover:text-gold-600 duration-500">
 							Blog
 						</a>
 					</Link>
 				</li>
 				<li>
 					<Link href="/contact">
-						<a className="text-white uppercase hover:text-gold-600 duration-500">
+						<a className="text-white text-sm sm:text-base uppercase hover:text-gold-600 duration-500">
 							Contact
 						</a>
 					</Link>
@@ -65,8 +65,8 @@ const Footer = () => {
 							className="cursor-pointer"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650266701/LizClementPhotos/Facebook_x6jbpg.png"
 							alt="lizclement-Facebook_x6jbpg"
-							width={36}
-							height={36}
+							width={28}
+							height={28}
 						/>
 					</div>
 				</Link>
@@ -76,8 +76,8 @@ const Footer = () => {
 							className="cursor-pointer"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650266701/LizClementPhotos/Twitter_cu1rno.png"
 							alt="lizclement-Twitter"
-							width={36}
-							height={36}
+							width={28}
+							height={28}
 						/>
 					</div>
 				</Link>
@@ -87,8 +87,8 @@ const Footer = () => {
 							className="cursor-pointer"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650266700/LizClementPhotos/Instagram_gfnee9.png"
 							alt="lizclement-Instagram"
-							width={36}
-							height={36}
+							width={28}
+							height={28}
 						/>
 					</div>
 				</Link>

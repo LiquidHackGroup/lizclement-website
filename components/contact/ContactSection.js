@@ -3,8 +3,8 @@ import React from 'react';
 const ContactSection = () => {
 	return (
 		<div className="py-10 mx-7 md:mx-24 bg-white">
-			<div className="px-10">
-				<h2 className="text-4xl uppercase font-semibold tracking-wide">
+			<div className="px-4 sm:px-10">
+				<h2 className="text-2xl sm:text-4xl uppercase font-semibold tracking-wide">
 					Contact Us
 				</h2>
 				<h4 className="py-8 text-gray-500">
@@ -12,26 +12,26 @@ const ContactSection = () => {
 				</h4>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
 					<div className="">
-						<h4 className="text-3xl uppercase font-semibold tracking-wide">
+						<h4 className="text-2xl sm:text-4xl uppercase font-semibold tracking-wide">
 							Address:
 						</h4>
-						<h5 className="text-xl capitalize text-gray-500 py-4">
+						<h5 className="text-sm sm:text-xl capitalize text-gray-500 py-4">
 							P.O. Box 6301 - 00610 Nairobi Kenya
 						</h5>
 					</div>
 					<div className="">
-						<h4 className="text-3xl uppercase font-semibold tracking-wide">
+						<h4 className="text-2xl sm:text-4xl uppercase font-semibold tracking-wide">
 							Email:
 						</h4>
-						<h5 className="text-xl text-gray-500 py-4">
+						<h5 className="text-sm sm:text-xl text-gray-500 py-4">
 							support@lizclementsalon.com
 						</h5>
 					</div>
 					<div className="">
-						<h4 className="text-3xl uppercase font-semibold tracking-wide">
+						<h4 className="text-2xl sm:text-4xl uppercase font-semibold tracking-wide">
 							Phone:
 						</h4>
-						<h5 className="text-xl capitalize text-gray-500 py-4">
+						<h5 className="text-sm sm:text-xl capitalize text-gray-500 py-4">
 							+254 785 242 025
 						</h5>
 					</div>

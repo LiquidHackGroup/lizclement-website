@@ -13,6 +13,7 @@ const GallerySection = () => {
 			<div className="py-8 grid grid-cols-2 gap-2 sm:grid-cols-4">
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012103/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.15.07_mhe6kg.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -21,6 +22,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012118/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.41_PM_zmmnyx.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -29,6 +31,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012122/LizClementPhotos/WhatsApp_Image_2022-02-10_at_4.25.14_PM_wiedb6.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -37,6 +40,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012105/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.12.05_r54gbg.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -45,6 +49,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012107/LizClementPhotos/WhatsApp_Image_2021-11-16_at_21.15.14_vbcfaa.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -53,6 +58,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012109/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.30_PM_yc1noa.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -61,6 +67,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012141/LizClementPhotos/WhatsApp_Image_2022-02-16_at_3.50.19_PM_1_wqeukt.jpg"
 						alt="lizclement-image"
 						width={300}
@@ -69,6 +76,7 @@ const GallerySection = () => {
 				</div>
 				<div>
 					<Image
+						className="object-cover"
 						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012130/LizClementPhotos/WhatsApp_Image_2022-02-11_at_5.03.21_PM_2_bt6xdj.jpg"
 						alt="lizclement-image"
 						width={300}

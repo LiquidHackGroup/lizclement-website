@@ -14,10 +14,11 @@ const Navbar = ({ navbarProps }) => {
 
 	return (
 		<header
-			className={isLandingPage ? `h-screen` : `h-fit`}
+			className={isLandingPage ? `h-screen bg-contain sm:bg-cover` : `h-fit`}
 			style={{
 				backgroundPosition: 'center',
-				backgroundSize: 'cover',
+				// backgroundRepeat: 'no-repeat',
+				// backgroundSize: 'contain',
 				backgroundImage: `url(${backgroundImage})`,
 			}}
 		>
@@ -207,6 +208,7 @@ const Navbar = ({ navbarProps }) => {
 				<div className="absolute flex h-[354px] w-3/4 left-[50%] translate-x-[-50%] top-[95%] sm:top-[90%]">
 					<div>
 						<Image
+							className="object-cover"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012162/LizClementPhotos/20220109_091023_ffjmes.jpg"
 							alt="lizclement-salon"
 							width={270}
@@ -215,6 +217,7 @@ const Navbar = ({ navbarProps }) => {
 					</div>
 					<div>
 						<Image
+							className="object-cover"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012118/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.41_PM_zmmnyx.jpg"
 							alt="lizclement-salon"
 							width={270}
@@ -223,6 +226,7 @@ const Navbar = ({ navbarProps }) => {
 					</div>
 					<div>
 						<Image
+							className="object-cover"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012128/LizClementPhotos/WhatsApp_Image_2022-02-11_at_5.03.21_PM_lsvv0l.jpg"
 							alt="lizclement-salon"
 							width={270}
@@ -231,6 +235,7 @@ const Navbar = ({ navbarProps }) => {
 					</div>
 					<div>
 						<Image
+							className="object-cover"
 							src="https://res.cloudinary.com/dgisuffs0/image/upload/v1650114116/LizClementPhotos/new-pic_qgw6ch.png"
 							alt="lizclement-salon"
 							width={270}

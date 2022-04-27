@@ -32,15 +32,15 @@ const Products = () => {
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258942/LizClementPhotos/products_5_msr6zp.jpg"
 									alt="lizclement-image"
-									className="cursor-pointer"
+									className="cursor-pointer object-cover"
 									width={257}
 									height={343}
 								/>
 							</div>
 							<div className="text-center pt-4">
-								<h4 className="uppercase text-gray-700">Hair Care</h4>
-								<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-								<h4 className="text-gray-700">KES 800.00</h4>
+								<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+								<h4 className="uppercase font-semibold">Skin Awaken</h4>
+								<h4 className="text-gray-700 text-sm">KES 1099.00</h4>
 							</div>
 						</div>
 						<div className="">
@@ -48,15 +48,15 @@ const Products = () => {
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258946/LizClementPhotos/products_2_k8z66p.jpg"
 									alt="lizclement-image"
-									className="cursor-pointer"
+									className="cursor-pointer object-cover"
 									width={257}
 									height={343}
 								/>
 							</div>
 							<div className="text-center pt-4">
-								<h4 className="uppercase text-gray-700">Hair Care</h4>
-								<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-								<h4 className="text-gray-700">KES 800.00</h4>
+								<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+								<h4 className="uppercase font-semibold">Color Silk</h4>
+								<h4 className="text-gray-700 text-sm">KES 1299.00</h4>
 							</div>
 						</div>
 						<div className="">
@@ -64,15 +64,15 @@ const Products = () => {
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258940/LizClementPhotos/products_3_klztgm.jpg"
 									alt="lizclement-image"
-									className="cursor-pointer"
+									className="cursor-pointer object-cover"
 									width={257}
 									height={343}
 								/>
 							</div>
 							<div className="text-center pt-4">
-								<h4 className="uppercase text-gray-700">Hair Care</h4>
-								<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-								<h4 className="text-gray-700">KES 800.00</h4>
+								<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+								<h4 className="uppercase font-semibold">Eye Brush</h4>
+								<h4 className="text-gray-700 text-sm">KES 999.00</h4>
 							</div>
 						</div>
 						<div className="">
@@ -80,15 +80,15 @@ const Products = () => {
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258952/LizClementPhotos/products_1_szeg22.jpg"
 									alt="lizclement-image"
-									className="cursor-pointer"
+									className="cursor-pointer object-cover"
 									width={257}
 									height={343}
 								/>
 							</div>
 							<div className="text-center pt-4">
-								<h4 className="uppercase text-gray-700">Hair Care</h4>
-								<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-								<h4 className="text-gray-700">KES 800.00</h4>
+								<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+								<h4 className="uppercase font-semibold">Super Lustrous</h4>
+								<h4 className="text-gray-700 text-sm">KES 800.00</h4>
 							</div>
 						</div>
 						<div className="">
@@ -96,15 +96,15 @@ const Products = () => {
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258974/LizClementPhotos/products_4_defl6y.jpg"
 									alt="lizclement-image"
-									className="cursor-pointer"
+									className="cursor-pointer object-cover"
 									width={257}
 									height={343}
 								/>
 							</div>
 							<div className="text-center pt-4">
-								<h4 className="uppercase text-gray-700">Hair Care</h4>
-								<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-								<h4 className="text-gray-700">KES 800.00</h4>
+								<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+								<h4 className="uppercase font-semibold">Makeup</h4>
+								<h4 className="text-gray-700 text-sm">KES 1399.00</h4>
 							</div>
 						</div>
 						<div className="">
@@ -112,15 +112,15 @@ const Products = () => {
 								<Image
 									src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650278760/LizClementPhotos/product_6_qhidmm.jpg"
 									alt="lizclement-image"
-									className="cursor-pointer"
+									className="cursor-pointer object-cover"
 									width={257}
 									height={343}
 								/>
 							</div>
 							<div className="text-center pt-4">
-								<h4 className="uppercase text-gray-700">Hair Care</h4>
-								<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-								<h4 className="text-gray-700">KES 800.00</h4>
+								<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+								<h4 className="uppercase font-semibold">Revlon Lipcolor</h4>
+								<h4 className="text-gray-700 text-sm">KES 799.00</h4>
 							</div>
 						</div>
 					</div>

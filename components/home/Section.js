@@ -38,7 +38,7 @@ const Section = () => {
 			</div>
 			{/* A whole new world */}
 			<div
-				className="h-[422px] w-full flex items-end sm:items-center justify-end my-14"
+				className="sm:h-[422px] w-full flex flex-col items-center sm:items-end justify-center my-14 py-8 sm:py-0"
 				style={{
 					backgroundBlendMode: 'multiply',
 					backgroundColor: '#949494',
@@ -50,7 +50,16 @@ const Section = () => {
 					backgroundImage: `url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650708286/LizClementPhotos/29_fukz8w.jpg')`,
 				}}
 			>
-				<div className="sm:px-40 md:px-60 md:pt-28 pb-8 sm:pb-0">
+				<div className="mx-7 sm:px-32 md:px-40 md:pt-0 pb-2 sm:pb-0">
+					<Image
+						src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650859335/LizClementPhotos/Unique_ham0dv.png"
+						alt="lizclement-image"
+						className="cursor-pointer object-cover"
+						width={444}
+						height={186}
+					/>
+				</div>
+				<div className="sm:px-32 md:px-40 md:pt-8 pb-8 sm:pb-0">
 					<h2 className="text-white text-xl md:text-4xl font-light uppercase tracking-widest">
 						A Whole New World,
 					</h2>
@@ -68,15 +77,15 @@ const Section = () => {
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258942/LizClementPhotos/products_5_msr6zp.jpg"
 								alt="lizclement-image"
-								className="cursor-pointer"
+								className="cursor-pointer object-cover"
 								width={257}
 								height={343}
 							/>
 						</div>
 						<div className="text-center pt-4">
-							<h4 className="uppercase text-gray-700">Hair Care</h4>
-							<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-							<h4 className="text-gray-700">KES 800.00</h4>
+							<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+							<h4 className="uppercase font-semibold">Skin Awaken</h4>
+							<h4 className="text-gray-700 text-sm">KES 1099.00</h4>
 						</div>
 					</div>
 					<div className="">
@@ -84,15 +93,15 @@ const Section = () => {
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258946/LizClementPhotos/products_2_k8z66p.jpg"
 								alt="lizclement-image"
-								className="cursor-pointer"
+								className="cursor-pointer object-cover"
 								width={257}
 								height={343}
 							/>
 						</div>
 						<div className="text-center pt-4">
-							<h4 className="uppercase text-gray-700">Hair Care</h4>
-							<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-							<h4 className="text-gray-700">KES 800.00</h4>
+							<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+							<h4 className="uppercase font-semibold">Color Silk</h4>
+							<h4 className="text-gray-700 text-sm">KES 1299.00</h4>
 						</div>
 					</div>
 					<div className="">
@@ -100,15 +109,15 @@ const Section = () => {
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258940/LizClementPhotos/products_3_klztgm.jpg"
 								alt="lizclement-image"
-								className="cursor-pointer"
+								className="cursor-pointer object-cover"
 								width={257}
 								height={343}
 							/>
 						</div>
 						<div className="text-center pt-4">
-							<h4 className="uppercase text-gray-700">Hair Care</h4>
-							<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-							<h4 className="text-gray-700">KES 800.00</h4>
+							<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+							<h4 className="uppercase font-semibold">Eye Brush</h4>
+							<h4 className="text-gray-700 text-sm">KES 999.00</h4>
 						</div>
 					</div>
 					<div className="">
@@ -116,15 +125,15 @@ const Section = () => {
 							<Image
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650258952/LizClementPhotos/products_1_szeg22.jpg"
 								alt="lizclement-image"
-								className="cursor-pointer"
+								className="cursor-pointer object-cover"
 								width={257}
 								height={343}
 							/>
 						</div>
 						<div className="text-center pt-4">
-							<h4 className="uppercase text-gray-700">Hair Care</h4>
-							<h4 className="uppercase font-semibold">Dry Shampoo</h4>
-							<h4 className="text-gray-700">KES 800.00</h4>
+							<h4 className="uppercase text-sm text-gray-700">Hair Care</h4>
+							<h4 className="uppercase font-semibold">Super Lustrous</h4>
+							<h4 className="text-gray-700 text-sm">KES 800.00</h4>
 						</div>
 					</div>
 				</div>
@@ -147,7 +156,7 @@ const Section = () => {
 					<div className="sm:space-y-2">
 						<div>
 							<Image
-								// style={{ aspectRatio: 16 / 9 }}
+								className="object-cover"
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012128/LizClementPhotos/WhatsApp_Image_2022-02-11_at_5.03.21_PM_lsvv0l.jpg"
 								alt="lizclement-image"
 								width={620}
@@ -156,11 +165,11 @@ const Section = () => {
 						</div>
 						<div>
 							<Image
-								// style={{ aspectRatio: 3 / 1 }}
+								className="object-cover"
 								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650012118/LizClementPhotos/WhatsApp_Image_2022-01-30_at_6.12.40_PM_1_tsqoub.jpg"
 								alt="lizclement-image"
 								width={620}
-								height={301}
+								height={302}
 							/>
 						</div>
 					</div>
