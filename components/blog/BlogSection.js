@@ -136,7 +136,7 @@ const BlogSection = () => {
 							<p className="text-sm py-3">
 								When it comes to styling your hair, there are likely a few
 								styles and accessories that you are comfortable with and stick
-								to. Whether it’s the classic ponytail, braids, or a messy bun,
+								to. Whether it's the classic ponytail, braids, or a messy bun,
 								these styles are popular and simple. Even if you choose a simple
 								style, there are many accessories you can use to add…
 							</p>
