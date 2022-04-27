@@ -14,10 +14,12 @@ const Navbar = ({ navbarProps }) => {
 
 	return (
 		<header
-			className={isLandingPage ? `h-screen bg-contain sm:bg-cover` : `h-fit`}
+			className={
+				isLandingPage ? `h-screen bg-contain bg-black-600 sm:bg-cover` : `h-fit`
+			}
 			style={{
 				backgroundPosition: 'center',
-				// backgroundRepeat: 'no-repeat',
+				backgroundRepeat: 'no-repeat',
 				// backgroundSize: 'contain',
 				backgroundImage: `url(${backgroundImage})`,
 			}}
