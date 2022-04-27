@@ -111,7 +111,7 @@ const BlogSection = () => {
 				</div>
 			</div>
 			<div className="py-14">
-				<h3 className="uppercase text-3xl font-semibold">EDITOR'S PICK</h3>
+				<h3 className="uppercase text-3xl font-semibold">Editor's Pick</h3>
 			</div>
 			<div className="grid grid-cols-3 gap-2">
 				<div className="bg-white grid grid-cols-2 col-span-2">
