@@ -187,15 +187,15 @@ const Navbar = ({ navbarProps }) => {
 			)}
 			{isLandingPage && (
 				<div className="flex flex-col items-center space-y-2 justify-center mt-[120px] sm:mt-[260px] my-auto">
-					<h2
-						className="text-gold-600 text-3xl sm:text-5xl"
-						style={{
-							font: 'normal normal normal AridITC TT',
-							textTransform: 'capitalize',
-						}}
-					>
-						{headerTitle}
-					</h2>
+					<div className="mx-7">
+						<Image
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1650859333/LizClementPhotos/Get_dx0baw.png"
+							alt="lizclement-text"
+							className="cursor-pointer"
+							width={583}
+							height={87}
+						/>
+					</div>
 					<div className="text-center">
 						<button className="uppercase text-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-2 sm:px-4 py-2 sm:py-4 duration-500">
 							Make Appointment
