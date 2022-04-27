@@ -110,10 +110,10 @@ const BlogSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="py-14">
+			{/* <div className="py-14">
 				<h3 className="uppercase text-3xl font-semibold">Editor's Pick</h3>
-			</div>
-			<div className="grid grid-cols-3 gap-2">
+			</div> */}
+			{/* <div className="grid grid-cols-3 gap-2">
 				<div className="bg-white grid grid-cols-2 col-span-2">
 					<div className="m-4">
 						<div>
@@ -146,13 +146,13 @@ const BlogSection = () => {
 						<h2>Inner section 2</h2>
 					</div>
 				</div>
-				{/* <div className="bg-white">
+				<div className="bg-white">
 					<h1>Section 2</h1>
-				</div> */}
+				</div>
 				<div className="bg-white">
 					<h1>Section 3</h1>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
