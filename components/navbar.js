@@ -15,7 +15,9 @@ const Navbar = ({ navbarProps }) => {
 	return (
 		<header
 			className={
-				isLandingPage ? `h-screen bg-contain bg-black-600 sm:bg-cover` : `h-fit`
+				isLandingPage
+					? `h-screen bg-contain bg-black-600 sm:bg-cover`
+					: `h-fit bg-cover`
 			}
 			style={{
 				backgroundPosition: 'center',
