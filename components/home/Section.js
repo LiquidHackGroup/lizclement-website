@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
@@ -87,6 +88,17 @@ const Section = () => {
 							<h4 className="uppercase font-semibold">Skin Awaken</h4>
 							<h4 className="text-gray-700 text-sm">KES 1099.00</h4>
 						</div>
+						<Link
+							href="https://wa.me/254720322497"
+							className="cursor-pointer flex items-center"
+							passHref
+						>
+							<div className="text-center py-4">
+								<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+									Add to Cart
+								</button>
+							</div>
+						</Link>
 					</div>
 					<div className="">
 						<div className="flex items-center justify-center">
@@ -103,6 +115,17 @@ const Section = () => {
 							<h4 className="uppercase font-semibold">Color Silk</h4>
 							<h4 className="text-gray-700 text-sm">KES 1299.00</h4>
 						</div>
+						<Link
+							href="https://wa.me/254720322497"
+							className="cursor-pointer flex items-center"
+							passHref
+						>
+							<div className="text-center py-4">
+								<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+									Add to Cart
+								</button>
+							</div>
+						</Link>
 					</div>
 					<div className="">
 						<div className="flex items-center justify-center">
@@ -119,6 +142,17 @@ const Section = () => {
 							<h4 className="uppercase font-semibold">Eye Brush</h4>
 							<h4 className="text-gray-700 text-sm">KES 999.00</h4>
 						</div>
+						<Link
+							href="https://wa.me/254720322497"
+							className="cursor-pointer flex items-center"
+							passHref
+						>
+							<div className="text-center py-4">
+								<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+									Add to Cart
+								</button>
+							</div>
+						</Link>
 					</div>
 					<div className="">
 						<div className="flex items-center justify-center">
@@ -135,13 +169,30 @@ const Section = () => {
 							<h4 className="uppercase font-semibold">Super Lustrous</h4>
 							<h4 className="text-gray-700 text-sm">KES 800.00</h4>
 						</div>
+						<Link
+							href="https://wa.me/254720322497"
+							className="cursor-pointer flex items-center"
+							passHref
+						>
+							<div className="text-center py-4">
+								<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+									Add to Cart
+								</button>
+							</div>
+						</Link>
 					</div>
 				</div>
-				<div className="text-center py-8">
-					<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 sm:py-4 duration-500">
-						More Products
-					</button>
-				</div>
+				<Link
+					href="/shop"
+					className="cursor-pointer flex items-center"
+					passHref
+				>
+					<div className="text-center py-8">
+						<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 sm:py-4 duration-500">
+							More Products
+						</button>
+					</div>
+				</Link>
 			</div>
 			<div className="px-4 sm:px-0">
 				<div className="flex flex-col justify-center sm:space-x-4 sm:flex-row">
@@ -229,7 +280,7 @@ const Section = () => {
 							height={139}
 						/>
 						<div className="myCarousel">
-							<h3>Shirley Fultz</h3>
+							<h3>Shirley</h3>
 							<h4>Designer</h4>
 							<p>
 								It is freeing to be able to catch up on customized news and not
@@ -245,7 +296,7 @@ const Section = () => {
 							height={139}
 						/>
 						<div className="myCarousel">
-							<h3>Jane Doe</h3>
+							<h3>Ann</h3>
 							<h4>Stylist</h4>
 							<p>
 								I finally met with the hairstylist today after two months of
@@ -261,7 +312,7 @@ const Section = () => {
 							height={139}
 						/>
 						<div className="myCarousel">
-							<h3>Kate Sorel</h3>
+							<h3>Kate</h3>
 							<h4>Hair Dresser</h4>
 							<p>
 								The simple and intuitive hair design makes it easy for me to

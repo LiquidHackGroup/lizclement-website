@@ -201,11 +201,18 @@ const Navbar = ({ navbarProps }) => {
 							height={87}
 						/>
 					</div>
-					<div className="text-center">
-						<button className="uppercase text-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-2 sm:px-4 py-2 sm:py-4 duration-500">
-							Make Appointment
-						</button>
-					</div>
+
+					<Link
+						href="https://wa.me/254720322497"
+						className="cursor-pointer flex items-center"
+						passHref
+					>
+						<div className="text-center">
+							<button className="uppercase text-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-2 sm:px-4 py-2 sm:py-4 duration-500">
+								Book Appointment
+							</button>
+						</div>
+					</Link>
 				</div>
 			)}
 			{isLandingPage && (

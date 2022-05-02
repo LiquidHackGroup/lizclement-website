@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Products = () => {
 	return (
@@ -42,6 +43,17 @@ const Products = () => {
 								<h4 className="uppercase font-semibold">Skin Awaken</h4>
 								<h4 className="text-gray-700 text-sm">KES 1099.00</h4>
 							</div>
+							<Link
+								href="https://wa.me/254720322497"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div className="text-center py-4">
+									<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+										Add to Cart
+									</button>
+								</div>
+							</Link>
 						</div>
 						<div className="">
 							<div className="flex items-center justify-center">
@@ -58,6 +70,17 @@ const Products = () => {
 								<h4 className="uppercase font-semibold">Color Silk</h4>
 								<h4 className="text-gray-700 text-sm">KES 1299.00</h4>
 							</div>
+							<Link
+								href="https://wa.me/254720322497"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div className="text-center py-4">
+									<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+										Add to Cart
+									</button>
+								</div>
+							</Link>
 						</div>
 						<div className="">
 							<div className="flex items-center justify-center">
@@ -74,6 +97,17 @@ const Products = () => {
 								<h4 className="uppercase font-semibold">Eye Brush</h4>
 								<h4 className="text-gray-700 text-sm">KES 999.00</h4>
 							</div>
+							<Link
+								href="https://wa.me/254720322497"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div className="text-center py-4">
+									<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+										Add to Cart
+									</button>
+								</div>
+							</Link>
 						</div>
 						<div className="">
 							<div className="flex items-center justify-center">
@@ -90,6 +124,17 @@ const Products = () => {
 								<h4 className="uppercase font-semibold">Super Lustrous</h4>
 								<h4 className="text-gray-700 text-sm">KES 800.00</h4>
 							</div>
+							<Link
+								href="https://wa.me/254720322497"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div className="text-center py-4">
+									<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+										Add to Cart
+									</button>
+								</div>
+							</Link>
 						</div>
 						<div className="">
 							<div className="flex items-center justify-center">
@@ -106,6 +151,17 @@ const Products = () => {
 								<h4 className="uppercase font-semibold">Makeup</h4>
 								<h4 className="text-gray-700 text-sm">KES 1399.00</h4>
 							</div>
+							<Link
+								href="https://wa.me/254720322497"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div className="text-center py-4">
+									<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+										Add to Cart
+									</button>
+								</div>
+							</Link>
 						</div>
 						<div className="">
 							<div className="flex items-center justify-center">
@@ -122,6 +178,17 @@ const Products = () => {
 								<h4 className="uppercase font-semibold">Revlon Lipcolor</h4>
 								<h4 className="text-gray-700 text-sm">KES 799.00</h4>
 							</div>
+							<Link
+								href="https://wa.me/254720322497"
+								className="cursor-pointer flex items-center"
+								passHref
+							>
+								<div className="text-center py-4">
+									<button className="uppercase text-white bg-gold-600 hover:bg-transparent hover:text-gold-600 outline outline-offset-2 hover:outline-2 outline-2 px-4 py-2 duration-500">
+										Add to Cart
+									</button>
+								</div>
+							</Link>
 						</div>
 					</div>
 				</div>

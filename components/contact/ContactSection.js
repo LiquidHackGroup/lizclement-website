@@ -16,7 +16,7 @@ const ContactSection = () => {
 							Address:
 						</h4>
 						<h5 className="text-sm sm:text-xl capitalize text-gray-500 py-4">
-							P.O. Box 6301 - 00610 Nairobi Kenya
+							Bihi Tower’s, 6th floor, suit 2. Moi Avenue. Nairobi CBD
 						</h5>
 					</div>
 					<div className="">
@@ -24,7 +24,7 @@ const ContactSection = () => {
 							Email:
 						</h4>
 						<h5 className="text-sm sm:text-xl text-gray-500 py-4">
-							support@lizclementsalon.com
+							beauty@lizclementsalon.com
 						</h5>
 					</div>
 					<div className="">
@@ -32,7 +32,7 @@ const ContactSection = () => {
 							Phone:
 						</h4>
 						<h5 className="text-sm sm:text-xl capitalize text-gray-500 py-4">
-							+254 785 242 025
+							+254 720 322 497
 						</h5>
 					</div>
 				</div>
